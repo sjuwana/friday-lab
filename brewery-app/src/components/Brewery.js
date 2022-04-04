@@ -10,7 +10,7 @@ const Brewery = (props) => {
 
    const brewery = props[brewery_id];
     return (
-        <div>
+        <div className="brewery">
             <ul key={props.id}>
                  <li><span>NAME : </span>{props.name}</li>
                  <li><span>TYPE : </span>{props.brewery_type}</li>
