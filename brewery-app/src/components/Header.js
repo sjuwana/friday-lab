@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header">
             <ul>
                 <NavLink to = '/'>
                     <li>HOME</li>
