@@ -7,6 +7,8 @@ import AboutUs from './components/AboutUs';
 import NotFound from './components/NotFound';
 import Home from './components/Home';
 import { breweryData } from './services/constants';
+import News from './components/News';
+
 
 const Container = () => {
     return (
@@ -16,6 +18,7 @@ const Container = () => {
                 <Route path ='/breweries' element = {<Breweries breweries={breweryData}/>}/>
                 <Route path ='/brewery' element = {<Brewery />}/>
                 <Route path ='/about' element = {<AboutUs />}/>
+                <Route path ='/news' element = {<News/>}/>
                 <Route path ='*' element = {<NotFound />}/>
             </Routes>
         </div>
