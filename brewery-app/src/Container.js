@@ -8,15 +8,17 @@ import NotFound from './components/NotFound';
 import Home from './components/Home';
 import { breweryData } from './services/constants';
 import News from './components/News';
+// import BreweryCard from './components/BreweryCard';
 
 
-const Container = () => {
+const Container = (props) => {
+   
     return (
         <div>
              <Routes>
                 <Route path ='/' element ={<Home/>}/>
                 <Route path ='/breweries' element = {<Breweries breweries={breweryData}/>}/>
-                <Route path ='/brewery' element = {<Brewery />}/>
+                <Route path ='/brewery/:name' element = {<Brewery  />}/>
                 <Route path ='/about' element = {<AboutUs />}/>
                 <Route path ='/news' element = {<News/>}/>
                 <Route path ='*' element = {<NotFound />}/>

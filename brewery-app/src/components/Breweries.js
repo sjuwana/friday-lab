@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { breweryData} from '../services/constants';
 import React from 'react';
 import BreweryCard from './BreweryCard';
+import Brewery from './Brewery';
 // import BreweryCard from './BreweryCard';
 
 const Breweries = (props) => {
@@ -27,10 +28,6 @@ const Breweries = (props) => {
         ()
     },[])
 
-    const renderBrewery = () => {
-        const { details } = props
-        console.log ('deta')
-    }
 
     return (
         <div>
@@ -48,7 +45,10 @@ const Breweries = (props) => {
           website = {brewery.website_url}
           
           />
+    
           ))}
+          <div>
+          </div>
         </div>
     );
 };
