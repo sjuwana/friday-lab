@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
+import NotFound from "./NotFound";
 
 const Brewery = () => {
     const { name } = useParams();
@@ -29,9 +30,9 @@ const Brewery = () => {
                  <li><span>STATE : </span>{breweries.state}</li>
                  <li><span>COUNTRY : </span>{breweries.country}</li>
                  <li><span>PHONE : </span>{breweries.phone}</li> 
-                  <li><span>WEBSITE : </span><a href="{props.website_url}">Visit Site</a></li>
+                  <li><span>WEBSITE : </span><a href={breweries.website_url}>Visit Site</a></li>
                    
-            </ul>: 'Loading...'}
+            </ul>: <NotFound/>}
         </div>
     );
 };
