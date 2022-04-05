@@ -13,4 +13,4 @@ export async function breweryData() {
         console.log(error)
     }
 }
-breweryData()
+// breweryData()
