@@ -31,7 +31,7 @@ const Brewery = () => {
                  <li><span>PHONE : </span>{breweries.phone}</li> 
                   <li><span>WEBSITE : </span><a href="{props.website_url}">Visit Site</a></li>
                    
-            </ul>: 'Loading...'}
+            </ul>: ''}
         </div>
     );
 };
