@@ -14,11 +14,12 @@ const Header = () => {
                     <li>BREWERIES</li>
                 </NavLink>
 
-                <NavLink to = '/about'>
-                    <li>ABOUT US</li>
-                </NavLink>
                 <NavLink to = '/news'>
                     <li>NEWS</li>
+                </NavLink>
+
+                <NavLink to = '/about'>
+                    <li>ABOUT US</li>
                 </NavLink>
 
             </ul>
