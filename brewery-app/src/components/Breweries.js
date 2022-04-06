@@ -12,10 +12,7 @@ const Breweries = (props) => {
     const [breweries, setBreweries] = useState ([])
 
     useEffect(()=>{
-    //   breweryData().then(res=>{
-    //      setBreweries(res)
-    //      console.log('view', res)
-    //   })
+  
        (async()=>{
            try{
                const res= await breweryData()
