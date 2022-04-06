@@ -19,4 +19,3 @@ const BreweryCard = (props) => {
 
 export default BreweryCard;
 
-
