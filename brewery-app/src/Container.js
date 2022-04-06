@@ -15,7 +15,7 @@ const Container = (props) => {
    
     return (
         <div>
-             <Routes>
+            <Routes>
                 <Route path ='/' element ={<Home/>}/>
                 <Route path ='/breweries' element = {<Breweries breweries={breweryData}/>}/>
                 <Route path ='/brewery/:name' element = {<Brewery  />}/>
