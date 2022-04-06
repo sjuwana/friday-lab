@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
 
+
 const Brewery = () => {
     const { name } = useParams();
     const [breweries, setBreweries] = useState ({})
@@ -15,7 +16,7 @@ const Brewery = () => {
         breweryData(name).then(res=>{
             const brewery = res.filter(item=> item.name === name )
              setBreweries(brewery[0]) 
-             console.log('name',brewery)
+            //  console.log('name',brewery)
            })}
 
 //    const brewery = props[id];
