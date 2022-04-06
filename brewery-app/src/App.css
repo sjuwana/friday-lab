@@ -37,6 +37,74 @@
   }
 }
 
-ul{
+/* ul, li{
   list-style: none;
+  text-decoration: none;
 }
+
+/* Hello, everyone! It's Aylin Don't mind me. - I will test out CSS below */
+
+body {
+  background-color: pink;
+  /* This is only to check */
+  border: 5px solid #61dafb;
+} 
+
+.header {
+  border: 5px solid purple;
+  background-color: orange;
+  /* Once more, this is to check */
+}
+
+.header > ul, li {
+  font-weight: bolder;
+  text-decoration: none;
+  display: flex;
+  justify-self: center;
+  align-content: center;
+} 
+
+/* Below is experimental */
+/* It will remove ALL underlined links */
+/* Issue */
+
+ /* a {
+  text-decoration: none;
+} */
+
+
+li:hover {
+  
+  color: white;
+  transition: .5s;
+  /* Transitions are new for me. */
+} 
+
+li {
+  margin: 10px 20px 20px 10px;
+}
+
+.breweryListContainer {
+  border: 5px solid red;
+  /* Border to check location */
+}
+
+.brewery {
+  /* This is from BreweryCard */
+  border: 5px solid orange;
+  /* Another border to check.  */
+}
+
+.details {
+  border: 5px solid pink;
+  /* A border check */
+}
+
+/* Below will be some general component divs */
+.home {
+  border: 5px solid blue;
+}
+
+.aboutUs {
+  border: 5px solid blue;
+} 

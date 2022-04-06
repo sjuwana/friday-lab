@@ -30,7 +30,7 @@ const Breweries = (props) => {
 
 
     return (
-        <div>
+        <div className='breweyListContainer'>
             <h2>My Brewery List</h2>
 
         {breweries.map(brewery=>(
