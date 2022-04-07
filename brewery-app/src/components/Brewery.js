@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
+import Email from "./Email";
 
 
 const Brewery = () => {
@@ -61,6 +62,9 @@ const Brewery = () => {
                         </tr>
                     </thead>
                 </table> : 'Loading...'}
+            </div>
+            <div className="contact-brewery">
+            <Email/>
             </div>
         </div>
     );
