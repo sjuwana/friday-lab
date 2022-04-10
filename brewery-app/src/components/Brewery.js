@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { breweryData } from "../services/constants";
 import React from "react";
+import DarkMode from "./DarkMode";
 
 const Brewery = () => {
   const { name } = useParams();
@@ -64,6 +65,7 @@ const Brewery = () => {
         ) : (
           "Loading..."
         )}
+        {/*<DarkApp />*/}
       </div>
     </div>
   );
