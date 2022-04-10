@@ -1,0 +1,19 @@
+ 
+ .contact-brewery{
+
+margin-left: 50%;
+margin-right: 10%;
+
+}
+ 
+.brewery-map{
+    height: 30;
+    width: 40%;
+}
+ 
+/* .map-contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+} */

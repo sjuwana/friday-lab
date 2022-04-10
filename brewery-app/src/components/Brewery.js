@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
 import Email from "./Email";
+import '../styles/Brewery.css'
+import Map from "./Map";
 
 
 const Brewery = () => {
@@ -62,10 +64,18 @@ const Brewery = () => {
                         </tr>
                     </thead>
                 </table> : 'Loading...'}
+
+                <Map name={breweries.name} lat={breweries.latitude} lon={breweries.longitude}/>
             </div>
+            <div className="map-contact">
+            {/* <div className="brewery-map">
+                <Map/>
+            </div> */}
             <div className="contact-brewery">
             <Email/>
             </div>
+            </div>
+
         </div>
     );
 };
