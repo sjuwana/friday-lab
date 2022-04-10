@@ -14,6 +14,10 @@ const Header = () => {
                     <li>BREWERIES</li>
                 </NavLink>
 
+                <div className='headerImage'>
+                </div>
+                {/* <img className="headerImage" src={"./images/icons/JAGS-header/JAGStransparent.png'/"} /> */}
+
                 <NavLink to = '/about'>
                     <li>ABOUT US</li>
                 </NavLink>

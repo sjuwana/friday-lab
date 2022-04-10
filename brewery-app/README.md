@@ -21,3 +21,11 @@ With ' react-typical ' installation issues, run
 
 only if there is an error message with :
 ### `npm install react-typical`
+
+
+Below is for 'react-slideshow' installation
+### "npm install react-slideshow-image -S"
+Resouces for 'react-slideshow':
+    1) https://www.npmjs.com/package/react-slideshow-image
+
+2) https://react-slideshow.herokuapp.com/
