@@ -8,6 +8,7 @@ import NotFound from './components/NotFound';
 import Home from './components/Home';
 import { breweryData } from './services/constants';
 import News from './components/News';
+import Search from './components/Search';
 // import BreweryCard from './components/BreweryCard';
 
 
@@ -21,7 +22,9 @@ const Container = (props) => {
                 <Route path ='/brewery/:name' element = {<Brewery  />}/>
                 <Route path ='/about' element = {<AboutUs />}/>
                 <Route path ='/news' element = {<News/>}/>
+                <Route path='/search' element = {<Search />} />
                 <Route path ='*' element = {<NotFound />}/>
+                
             </Routes>
         </div>
     );

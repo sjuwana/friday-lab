@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
-
+import SampleSlideshow from "./SampleSlideshow";
 
 const Brewery = () => {
     const { name } = useParams();
@@ -34,6 +34,7 @@ const Brewery = () => {
                         <tr>
                             <th>TYPE :</th>
                             <td>{breweries.brewery_type}</td>
+                
                         </tr>
                         <tr>
                             <th>CITY :</th>
@@ -59,6 +60,7 @@ const Brewery = () => {
                             <th>WEBSITE :</th>
                             <td><a href={breweries.website_url}>Visit Site</a></td>
                         </tr>
+
                     </thead>
                 </table> : 'Loading...'}
             </div>

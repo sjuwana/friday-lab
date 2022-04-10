@@ -1,16 +1,14 @@
 import React from 'react';
-import ReactDOM from "react-dom";
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom'
+import 'react-slideshow-image/dist/styles.css';
 
 
-
-// changed ReactDOM.render() to the following to take care of reacDom error
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+       <App />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
