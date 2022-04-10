@@ -13,6 +13,11 @@ const Header = () => {
                 <NavLink to= '/breweries'>
                     <li>BREWERIES</li>
                 </NavLink>
+ <NavLink to = '/news'>
+                    <li>NEWS</li>
+                </NavLink>
+      
+      
 
                 <div className='headerImage'>
                 </div>
@@ -21,9 +26,10 @@ const Header = () => {
                 <NavLink to = '/about'>
                     <li>ABOUT US</li>
                 </NavLink>
-                <NavLink to = '/news'>
-                    <li>NEWS</li>
-                </NavLink>
+
+               
+
+               
 
             </ul>
         </div>
