@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
+import Email from './Email';
 import SampleSlideshow from "./SampleSlideshow";
 
 const Brewery = () => {
@@ -23,7 +24,7 @@ const Brewery = () => {
     return (
         <div className="brewery">
            
-            <div className="brewery-details">
+            <div className="brewery-details" id="breweryInfo">
                 { breweries ?
                 <table>
                     <thead>
@@ -50,20 +51,28 @@ const Brewery = () => {
                         </tr>
                         <tr>
                             <th>COUNTRY :</th>
-                            <td>+1{breweries.phone}</td>
+                            <td>{breweries.country}</td>
                         </tr>
                         <tr>
                             <th>PHONE :</th>
-                            <td>{breweries.country}</td>
+                            <td>+1{breweries.phone}</td>
                         </tr>
                         <tr>
                             <th>WEBSITE :</th>
                             <td><a href={breweries.website_url}>Visit Site</a></td>
                         </tr>
-
                     </thead>
                 </table> : 'Loading...'}
+
+                {/* <Map name={breweries.name} lat={breweries.latitude} lon={breweries.longitude}/> */}
             </div>
+            
+            <div className="brewery-map">
+                <h2>EMAIL : {breweries.name} </h2>
+                <Email/>
+            </div>
+        
+            {/* <button>Email Us</button> */}
         </div>
     );
 };

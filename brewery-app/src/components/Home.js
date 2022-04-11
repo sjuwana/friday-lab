@@ -2,8 +2,15 @@
 import Typical from "react-typical";
 import React from 'react';
 import SampleSlideshow from "./SampleSlideshow";
+import {   useNavigate } from "react-router-dom";
 
 const Home = () => {
+
+    const navigate = useNavigate();
+    const handleContact =(e)=> {
+        console.log('clicked')
+        navigate('/contact-us')
+    }
     return (
         <div className="home">
           <div className="home-imageDiv">
@@ -22,7 +29,7 @@ const Home = () => {
                     />
             </div>
                     <div className="home-button">
-                        <button>Contact Us</button>
+                        <button onClick={handleContact}>Contact Us</button>
                     </div>
             </div>
 

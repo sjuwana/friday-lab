@@ -6,7 +6,7 @@
 
 import breweryCall from "../services/breweryCall";
 // import BrewCard from "./BrewCard";
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 
 import BreweryCard from "./BreweryCard";
 
@@ -16,6 +16,10 @@ function Search() {
     // The breweries themselves are in an object. 
     // So, we should be able to map these. 
     const [input, setInput] = useState('');
+
+    // useEffect(()=>{
+    //     handleChange()
+    // },[])
     
     const handleChange = (event) => {
         event.preventDefault();

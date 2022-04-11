@@ -87,6 +87,8 @@ h1, p {
 .header {
   /* border: 5px solid purple; */
   background-color: orange;
+  margin-left: 0;
+  
   /* Once more, this is to check */
 }
 
@@ -152,6 +154,7 @@ h1, p {
 .typical-brewery {
   /* This is the animation on the homepage */
   font-weight: bolder;
+  color: red;
 }
 
 .typical-breweries {
@@ -179,10 +182,11 @@ h1, p {
   color: white;
   display: flex;
   justify-self: center;
-  margin: 50px 75px 75px 50px;
+  margin: 25px 45px 0px 35px;
   border: 5px solid fuchsia;
   border-radius: 10%;
-  width: 100vw;
+  width: 90%;
+  max-height: 100vh;
 
  
   /* Another border to check.  */
@@ -196,13 +200,20 @@ h1, p {
   -ms-flex-align: center;
   align-content: center;
   justify-self: center;
-  margin-left: 25%;
-  margin-right: 25;
-  padding: 50px 30px 30px 50px;
-  border: 5px solid black;
+  margin-top: 20px;
+  margin-left: 10%;
+  /* margin-right: 2%; */
+  height: 70vh;
+  width: 70vw;
+  /* padding: 50px 30px 30px 50px; */
+  border: 2px solid black;
   border-radius: 10%;
   /* background-image: linear-gradient(orange) */
   background-color: orange;
+}
+#breweryInfo td{
+  padding-left: 155px;
+
 }
 
 .brewery-card {
