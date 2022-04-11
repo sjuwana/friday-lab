@@ -6,9 +6,8 @@ const Header = () => {
   return (
     <div className="header">
       <nav>
-        
         <DarkMode />
-      
+      </nav>
       <ul>
         <NavLink to="/">
           <li>HOME</li>
@@ -17,17 +16,17 @@ const Header = () => {
         <NavLink to="/breweries">
           <li>BREWERIES</li>
         </NavLink>
-
+        <div className="headerImage"></div>
         <NavLink to="/news">
           <li>NEWS</li>
         </NavLink>
+
+        {/* <img className="headerImage" src={"./images/icons/JAGS-header/JAGStransparent.png'/"} /> */}
 
         <NavLink to="/about">
           <li>ABOUT US</li>
         </NavLink>
       </ul>
-
-      </nav>
     </div>
   );
 };

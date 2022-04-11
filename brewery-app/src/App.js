@@ -1,17 +1,16 @@
-import Header from "./components/Header";
-import Container from "./Container.js";
-import "./App.css";
-import DarkMode from "./components/DarkMode";
+
+import Header from './components/Header';
+import Container from './Container.js';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-
-      <main>
-        <Container />
-      </main>
-      {/* <Footer/> */}
+     <Header/>
+     <main>
+       <Container/>
+     </main>
+     {/* <Footer/> */}
     </div>
   );
 }
