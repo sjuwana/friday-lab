@@ -1,0 +1,30 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(156, 170, 175);
+}
+
+.all__news{
+    margin: 30 px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 11px;
+}
+
+.news {
+    max-width: 500px;
+    padding :40px;
+    border: 1px solid rgb(65, 192, 160);
+    border-radius: 6px;
+}
+
+.news__title{
+    padding-bottom: 10px;
+}
