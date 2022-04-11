@@ -12,7 +12,6 @@ import Search from './components/Search';
 import Email from './components/Email';
 // import BreweryCard from './components/BreweryCard';
 
-
 const Container = (props) => {
    
     return (

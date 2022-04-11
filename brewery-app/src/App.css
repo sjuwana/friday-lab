@@ -1,4 +1,11 @@
-@import 'react-slideshow-image/dist/styles.css';
+@import "react-slideshow-image/dist/styles.css";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --blue: rgb(26, 57, 87);
+  --white: rgb(170, 195, 237);
+}
+@import "react-slideshow-image/dist/styles.css";
 
 .App {
   text-align: center;
@@ -39,7 +46,8 @@
   }
 }
 
-ul, li{
+ul,
+li {
   color: white;
   text-shadow: 1px 1px black;
   list-style: none;
@@ -47,10 +55,10 @@ ul, li{
 }
 
 li:hover {
-  color: black;
-  transition: .5s;
+  color: orange;
+  transition: 0.5s;
   /* Transitions are new for me. */
-} 
+}
 
 li {
   margin: 10px 20px 20px 10px;
@@ -61,8 +69,8 @@ li {
 body {
   /* height: 100%;
   width: 100%; */
-  position: relative;
-  background-image: linear-gradient(purple,pink, white);
+  /* position: relative; */
+  /* background-image: linear-gradient(purple, pink, white);  */
   /* This is only to check */
   /* border: 5px solid #61dafb; */
 
@@ -73,26 +81,92 @@ body {
   /* background-image: url('images/alcohol-collection.jpeg'); */
 
   /* background-image: url('images/coronas-in-can.jpeg'); */
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100vw; */
   /* Let's see if I can overide this with other backgrounds */
-} 
 
-h1, p {
+  font-family: "Ubuntu", sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-weight);
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+}
+
+body.light {
+  --background-color: var(--white);
+  --text-color: var(--blue);
+  --font-weight: 400;
+  /* --image: url("../day.jpg"); */
+}
+
+body.dark {
+  --background-color: var(--blue);
+  --text-color: var(--white);
+  --font-weight: 500;
+  /* --image: url("../night.jpg"); */
+}
+
+nav {
+  padding: 1rem 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--text-color);
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+#image {
+  width: 100%;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.7s ease-in-out;
+  background-image: var(--image);
+}
+
+nav a:hover {
+  color: rgb(12, 216, 189);
+}
+
+/* h1,
+p {
   color: white;
   text-shadow: 2px 2px black;
+} */
+
+h1 {
+  text-align: center;
+  margin: 3rem 0 2rem 0;
 }
+
+p {
+  width: 40%;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+
+/* p {
+  width: 40%;
+  margin: 1rem auto;
+  line-height: 1.6;
+} */
 
 .header {
   /* border: 5px solid purple; */
-  background-color: orange;
-  margin-left: 0;
-  
-  /* Once more, this is to check */
+  /* background-color: rgb(23, 23, 103); */
 }
 
-.header > ul, li {
+.header > ul,
+li {
   width: 100%;
   height: 100px;
   font-weight: bolder;
@@ -100,12 +174,11 @@ h1, p {
   display: flex;
   align-content: flex-start;
   justify-content: center;
-} 
-
+}
 
 .header {
   position: relative;
-  left: -3%;
+  left: 0%;
   width: 100vw;
   /* display: flex; */
   /* justify-content: center; */
@@ -113,7 +186,7 @@ h1, p {
   /* align-self: center; */
 }
 .headerImage {
-  background-image: url('./images/icons/JAGS-header/JAGStransparent.png');
+  background-image: url("./images/icons/JAGS-header/JAGStransparent.png");
   /* background-image: url('./images/icons/JAGS-long-logo/JAGSlong-transparent-black.png'); */
   background-size: 100%;
   background-repeat: no-repeat;
@@ -121,15 +194,13 @@ h1, p {
   width: 175px;
   /* border: 2px solid white;  */
   border-radius: 50%;
- 
 
   /* Below is for a "rounded" look */
   position: relative;
   top: -35%;
+
   background-color: orange;
-
 }
-
 
 .aboutUs {
   /* background-image: url('./images/beer-pouring-from-can-to-glass.jpg'); */
@@ -141,25 +212,23 @@ h1, p {
   /* height: 1000px; */
 }
 
-
 /* Below is experimental */
 /* It will remove ALL underlined links */
 /* Issue - all li are currently affected*/
 
- a {
+a {
   text-decoration: none;
 }
-
 
 .typical-brewery {
   /* This is the animation on the homepage */
   font-weight: bolder;
-  color: red;
 }
 
 .typical-breweries {
   /* This is the animation on the brewery page */
   font-size: larger;
+  color: rgb(230, 159, 26);
   border: 5px gray;
   padding: 20px;
   font-weight: bolder;
@@ -182,15 +251,12 @@ h1, p {
   color: white;
   display: flex;
   justify-self: center;
-  margin: 25px 45px 0px 35px;
+  margin: 50px 75px 75px 50px;
   border: 5px solid fuchsia;
   border-radius: 10%;
-  width: 90%;
-  max-height: 100vh;
+  width: 100vw;
 
- 
   /* Another border to check.  */
-
 }
 
 .brewery-details {
@@ -200,20 +266,13 @@ h1, p {
   -ms-flex-align: center;
   align-content: center;
   justify-self: center;
-  margin-top: 20px;
-  margin-left: 10%;
-  /* margin-right: 2%; */
-  height: 70vh;
-  width: 70vw;
-  /* padding: 50px 30px 30px 50px; */
-  border: 2px solid black;
+  margin-left: 25%;
+  margin-right: 25;
+  padding: 50px 30px 30px 50px;
+  border: 5px solid black;
   border-radius: 10%;
   /* background-image: linear-gradient(orange) */
   background-color: orange;
-}
-#breweryInfo td{
-  padding-left: 155px;
-
 }
 
 .brewery-card {
@@ -236,11 +295,9 @@ h1, p {
 .details > button {
   color: white;
   background-image: linear-gradient(orange, brown);
-height: 30px;
-width: 150px;
+  height: 30px;
+  width: 150px;
 }
-
-
 
 .details-image {
   position: relative;
@@ -256,12 +313,11 @@ width: 150px;
 .home {
   /* background-color: white; */
   border: 5px solid blue;
-  
 }
 
 .home-imageDiv {
   /* background-color: black; */
-  background-image: url('images/beer-machine.jpeg');
+  background-image: url("images/beer-machine.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 2px #282c34;
@@ -269,15 +325,14 @@ width: 150px;
   width: 100vw;
 }
 
-
 .home-textDiv {
   position: relative;
+  color: white;
   top: 30%;
-
 
   font-size: 30px;
   font-weight: 700;
-  text-shadow: 10px 10px black;
+  text-shadow: 5px 5px black;
 }
 
 .home-button > button {
@@ -287,28 +342,28 @@ width: 150px;
   text-shadow: 2px 2px black;
   width: 150px;
   height: 50px;
-  background-image: linear-gradient(90deg, brown,orange, yellow);
+  background-image: linear-gradient(90deg, brown, orange, yellow);
   border-radius: 15%;
 }
 
 .home-button > button:hover {
-  background-image: linear-gradient(90deg, yellow,or,brown);
-  transition: .5s;
+  background-image: linear-gradient(90deg, yellow, or, brown);
+  transition: 0.5s;
 }
 
 .aboutUs {
   border: 5px solid blue;
-} 
+}
 
 .breweries-searchlink {
-  font-size: larger;
+  color: white;
+  font-size: 25px;
 }
 
 .breweries-searchlink > p:hover {
   color: orange;
   transition: 0.5s;
 }
-
 
 .makeshiftFooter {
   background-image: url("images/icons/JAGS-long-logo/JAGSlong-transparent-white.png");
