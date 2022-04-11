@@ -28,12 +28,11 @@ With ' react-typical ' installation issues, run
 only if there is an error message with :
 ### `npm i react-google-maps `
 
-Installed dependencies
 
--  "axios": "^0.26.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.0",
-    "react-typical": "^0.1.3",
-    "web-vitals": "^2.1.4"
+
+Below is for 'react-slideshow' installation
+### "npm install react-slideshow-image -S"
+Resouces for 'react-slideshow':
+    1) https://www.npmjs.com/package/react-slideshow-image
+
+2) https://react-slideshow.herokuapp.com/

@@ -3,10 +3,8 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react';
 import { breweryData } from '../services/constants';
 import React from 'react';
-import Email from "./Email";
-import '../styles/Brewery.css'
-import Map from "./Map";
-
+import Email from './Email';
+import SampleSlideshow from "./SampleSlideshow";
 
 const Brewery = () => {
     const { name } = useParams();
@@ -26,7 +24,7 @@ const Brewery = () => {
     return (
         <div className="brewery">
            
-            <div className="brewery-details">
+            <div className="brewery-details" id="breweryInfo">
                 { breweries ?
                 <table>
                     <thead>
@@ -37,6 +35,7 @@ const Brewery = () => {
                         <tr>
                             <th>TYPE :</th>
                             <td>{breweries.brewery_type}</td>
+                
                         </tr>
                         <tr>
                             <th>CITY :</th>
@@ -52,11 +51,11 @@ const Brewery = () => {
                         </tr>
                         <tr>
                             <th>COUNTRY :</th>
-                            <td>+1{breweries.phone}</td>
+                            <td>{breweries.country}</td>
                         </tr>
                         <tr>
                             <th>PHONE :</th>
-                            <td>{breweries.country}</td>
+                            <td>+1{breweries.phone}</td>
                         </tr>
                         <tr>
                             <th>WEBSITE :</th>
@@ -65,17 +64,15 @@ const Brewery = () => {
                     </thead>
                 </table> : 'Loading...'}
 
-                <Map name={breweries.name} lat={breweries.latitude} lon={breweries.longitude}/>
+                {/* <Map name={breweries.name} lat={breweries.latitude} lon={breweries.longitude}/> */}
             </div>
-            <div className="map-contact">
-            {/* <div className="brewery-map">
-                <Map/>
-            </div> */}
-            <div className="contact-brewery">
-            <Email/>
+            
+            <div className="brewery-map">
+                <h2>EMAIL : {breweries.name} </h2>
+                <Email/>
             </div>
-            </div>
-
+        
+            {/* <button>Email Us</button> */}
         </div>
     );
 };

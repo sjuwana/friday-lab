@@ -5,6 +5,7 @@ import React from 'react';
 import BreweryCard from './BreweryCard';
 import Typical from "react-typical";
 
+import { NavLink } from 'react-router-dom'
 
 const Breweries = (props) => {
    
@@ -40,6 +41,13 @@ const Breweries = (props) => {
                 />
             </div>
            
+           {/* Here I will attempt to add a navigation link to my "Search" component - Aylin */}
+                    <NavLink to="/search">
+                        <div className='breweries-searchlink'>
+                        <p>Want to Search for a Brewery, Instead? </p>
+                        </div>
+                    </NavLink>
+
             <div className='brewery-card'>
                 {breweries.map(brewery=>(
                 <BreweryCard
