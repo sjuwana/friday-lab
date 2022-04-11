@@ -1,16 +1,12 @@
-
-import Header from './components/Header';
-import Container from './Container.js';
+import React, {createContext, useEffect, useState } from "react";
+import axios from "axios";
+import {NewsContextProvider } from "./NewsContext";
 
 function App() {
   return (
-    <div className="App">
-     <Header/>
-     <main>
-       <Container/>
-     </main>
-     {/* <Footer/> */}
-    </div>
+    <NewsContextProvider>
+     <div>JAGS' News!</div>
+     </NewsContextProvider>
   );
 }
 
