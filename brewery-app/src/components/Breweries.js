@@ -38,7 +38,7 @@ const Breweries = (props) => {
       {/* Here I will attempt to add a navigation link to my "Search" component - Aylin */}
       <NavLink to="/search">
         <div className="breweries-searchlink">
-          <p>Want to Search for a Brewery, Instead? ... CLICK HERE </p>
+          <p>Search for a Brewery, Instead? (Click Here) </p>
         </div>
       </NavLink>
 

@@ -22,6 +22,13 @@ With ' react-typical ' installation issues, run
 only if there is an error message with :
 ### `npm install react-typical`
 
+With ' react-typical ' installation issues, run 
+### `npm i react-google-maps --legacy-peer-deps` 
+
+only if there is an error message with :
+### `npm i react-google-maps `
+
+
 
 Below is for 'react-slideshow' installation
 ### "npm install react-slideshow-image -S"

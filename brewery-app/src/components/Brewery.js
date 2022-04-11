@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { breweryData } from "../services/constants";
 import React from "react";
-import SampleSlideshow from "./SampleSlideshow";
-// import DarkMode from "./DarkMode";
+import Email from "./Email";
+// import SampleSlideshow from "./SampleSlideshow";
 
 const Brewery = () => {
   const { name } = useParams();
@@ -23,40 +23,40 @@ const Brewery = () => {
   //    const brewery = props[id];
   return (
     <div className="brewery">
-      <div className="brewery-details">
+      <div className="brewery-details" id="breweryInfo">
         {breweries ? (
           <table>
             <thead>
               <tr>
-                <th>NAME :</th>
+                <th>NAME : </th>
                 <td>{breweries.name}</td>
               </tr>
               <tr>
-                <th>TYPE :</th>
+                <th>TYPE: </th>
                 <td>{breweries.brewery_type}</td>
               </tr>
               <tr>
-                <th>CITY :</th>
+                <th>CITY: </th>
                 <td>{breweries.city}</td>
               </tr>
               <tr>
-                <th>STATE :</th>
+                <th>STATE: </th>
                 <td>{breweries.state}</td>
               </tr>
               <tr>
-                <th>P.CODE :</th>
+                <th>P.CODE: </th>
                 <td>{breweries.postal_code}</td>
               </tr>
               <tr>
-                <th>COUNTRY :</th>
-                <td>+1{breweries.phone}</td>
-              </tr>
-              <tr>
-                <th>PHONE :</th>
+                <th>COUNTRY: </th>
                 <td>{breweries.country}</td>
               </tr>
               <tr>
-                <th>WEBSITE :</th>
+                <th>PHONE: </th>
+                <td>+1{breweries.phone}</td>
+              </tr>
+              <tr>
+                <th>WEBSITE: </th>
                 <td>
                   <a href={breweries.website_url}>Visit Site</a>
                 </td>
@@ -66,7 +66,16 @@ const Brewery = () => {
         ) : (
           "Loading..."
         )}
+
+        {/* <Map name={breweries.name} lat={breweries.latitude} lon={breweries.longitude}/> */}
       </div>
+
+      <div className="brewery-map">
+        <h2>EMAIL : {breweries.name} </h2>
+        <Email />
+      </div>
+
+      {/* <button>Email Us</button> */}
     </div>
   );
 };
