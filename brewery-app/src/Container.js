@@ -7,9 +7,12 @@ import AboutUs from './components/AboutUs';
 import NotFound from './components/NotFound';
 import Home from './components/Home';
 import { breweryData } from './services/constants';
-import News from './components/News';
+//import News from './components/News';
 import Search from './components/Search';
 import Email from './components/Email';
+import News from './components/News';
+import NewsDisplay from './components/NewsDisplay';
+
 // import BreweryCard from './components/BreweryCard';
 
 const Container = (props) => {
@@ -21,7 +24,7 @@ const Container = (props) => {
                 <Route path ='/breweries' element = {<Breweries breweries={breweryData}/>}/>
                 <Route path ='/brewery/:name' element = {<Brewery  />}/>
                 <Route path ='/about' element = {<AboutUs />}/>
-                <Route path ='/news' element = {<News/>}/>
+                <Route path ='/news' element = {<NewsDisplay/>}/>
                 <Route path='/contact-us' element = { <Email/> }/>
                 <Route path='/search' element = {<Search />} />
                 <Route path ='*' element = {<NotFound />}/>
