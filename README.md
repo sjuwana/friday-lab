@@ -16,9 +16,7 @@ We are the go to place for all things related to Beer Brewery.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-If cloned, in the projevt directory and run 
+Clone this app in the project directory and run 
 
 ### `npm install` 
 
