@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-    <img width="80%" src="https://imgur.com/gallery/Y3kge96" alt="Gif of our app">
+    <img width="80%" src="https://i.ibb.co/gtLShTv/iPr8COH.png" alt="Gif of our app">
 </p>
 <br/>
 
