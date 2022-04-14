@@ -67,14 +67,3 @@ Features of JAGS Brewery include:
 - Search functionality to find a brewery
 - Dark mode function to change the background color
 
-### 🚀 MVP
-
-- User Auth(Sign in/Sign up/Auth view)
-- CRUD Operations
-- Wishlist functionality:
-  - User creates a wishlist
-  - User adds items to wishlist
-  - User deletes items from wishlist
-  - Homepage shows wishlist
-- Search functionality
-  - Includes a search bar
