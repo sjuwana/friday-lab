@@ -34,12 +34,6 @@ With the newly redesigned moonMan app, use the interactive and intuitive interfa
 ## Colors
 
 
-
-
-#### Desktop
-
-<img src="https://github.com/marymacmurray/done4today/blob/develop/desktop-mockup.png">
-
 ## 👩🏽‍🚀 Feature List
 
 Features of moonMan include:
