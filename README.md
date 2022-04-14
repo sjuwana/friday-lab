@@ -58,17 +58,14 @@ Resouces for 'react-slideshow':
 - Godbless Amankwah,
 - Stephanus Juwana
 
-## Colors
+## Header List
 
+Features of JAGS Brewery include:
 
-## 👩🏽‍🚀 Feature List
-
-Features of moonMan include:
-
-- User Auth(Sign in/Sign up/Auth view)
-- CRUD Operations
-- Wishlist feature
-- Search feature
+- List of breweries in the United States
+- Latest news update about breweries
+- Search function to find a brewery
+- Dark mode function to change the background color
 
 ### 🚀 MVP
 
