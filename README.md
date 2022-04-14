@@ -11,18 +11,48 @@ We are the go to place for all things related to Beer Brewery.
 
 ## &nbsp;Overview
 
-JAGS 
+
+## Things to install to run this website
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+If cloned, in the projevt directory and run 
+
+### `npm install` 
 
 
-## moonMan is a web app for people who feel more at home looking up into the stars than they do lounging in their Earthly homes.
+In the project directory, you can run:
 
-With the newly redesigned moonMan app, use the interactive and intuitive interface to easily browse through a collection of new and used space ship parts that, when all put together, will allow you to travel the expanse of virtual space.
+### `npm start`
 
-#### Don’t see the parts you need?
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Search, add, edit, and delete parts as needed.
-- Add favorite parts to your wishlist and off you go! Whether you are trying to find the planet on which you were probably born, or if you're just visiting.
-- Includes authentication and authorization.
+With ' react-typical ' installation issues, run 
+### `npm install react-typical --legacy-peer-deps` 
+
+only if there is an error message with :
+### `npm install react-typical`
+
+With ' react-typical ' installation issues, run 
+### `npm i react-google-maps --legacy-peer-deps` 
+
+only if there is an error message with :
+### `npm i react-google-maps `
+
+
+
+Below is for 'react-slideshow' installation
+### "npm install react-slideshow-image -S"
+Resouces for 'react-slideshow':
+    1) https://www.npmjs.com/package/react-slideshow-image
+
+2) https://react-slideshow.herokuapp.com/
+
 
 ## JAGS team:
 
