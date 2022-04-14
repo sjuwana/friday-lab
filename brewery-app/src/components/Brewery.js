@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { breweryData } from "../services/constants";
 import React from "react";
 import Email from "./Email";
-// import SampleSlideshow from "./SampleSlideshow";
 
 const Brewery = () => {
   const { name } = useParams();
@@ -66,16 +65,12 @@ const Brewery = () => {
         ) : (
           "Loading..."
         )}
-
-        {/* <Map name={breweries.name} lat={breweries.latitude} lon={breweries.longitude}/> */}
       </div>
 
       <div className="brewery-map">
         <h2>EMAIL : {breweries.name} </h2>
         <Email />
       </div>
-
-      {/* <button>Email Us</button> */}
     </div>
   );
 };

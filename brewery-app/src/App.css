@@ -67,25 +67,7 @@ li {
 /* Hello, everyone! It's Aylin Don't mind me. - I will test out CSS below */
 
 body {
-  /* height: 100%;
-  width: 100%; */
-  /* position: relative; */
-  /* background-image: linear-gradient(purple, pink, white);  */
-  /* This is only to check */
-  /* border: 5px solid #61dafb; */
-
-  /* background-image: url("images/beer-machine.jpeg"); */
-
-  /* background-image: url('images/beer-pouring-from-can-to-glass.jpg'); */
-
-  /* background-image: url('images/alcohol-collection.jpeg'); */
-
-  /* background-image: url('images/coronas-in-can.jpeg'); */
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw; */
-  /* Let's see if I can overide this with other backgrounds */
-
+  
   font-family: "Ubuntu", sans-serif;
   background: var(--background-color);
   color: var(--text-color);
@@ -160,11 +142,6 @@ p {
   line-height: 1.6;
 } */
 
-.header {
-  /* border: 5px solid purple; */
-  /* background-color: rgb(23, 23, 103); */
-}
-
 .header > ul,
 li {
   width: 100%;
@@ -207,7 +184,7 @@ li {
   /* The above is causing issues with our slide. */
   /* background-repeat: no-repeat;
   background-size: cover; */
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   /* height: 1000px; */
 }

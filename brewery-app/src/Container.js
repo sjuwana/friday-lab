@@ -10,6 +10,7 @@ import { breweryData } from './services/constants';
 import News from './components/News';
 import Search from './components/Search';
 import Email from './components/Email';
+import Map from './components/Map';
 // import BreweryCard from './components/BreweryCard';
 
 const Container = (props) => {
@@ -23,6 +24,7 @@ const Container = (props) => {
                 <Route path ='/about' element = {<AboutUs />}/>
                 <Route path ='/news' element = {<News/>}/>
                 <Route path='/contact-us' element = { <Email/> }/>
+                <Route path='/locate-us' element = { <Map/> }/>
                 <Route path='/search' element = {<Search />} />
                 <Route path ='*' element = {<NotFound />}/>
                 

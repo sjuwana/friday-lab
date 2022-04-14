@@ -1,9 +1,16 @@
 // import SampleSlideshow from './SampleSlideshow';
 import React from "react";
-// import Email from './Email';
+import {   useNavigate } from "react-router-dom";
 import "../styles/AboutUs.css";
+import Map from "./Map";
 
 const AboutUs = () => {
+  const navigate = useNavigate();
+  const handleLocation =(e)=> {
+      console.log('clicked')
+      navigate('/locate-us')
+  }
+
   return (
     <div className="aboutUs">
       <h2>
@@ -14,11 +21,10 @@ const AboutUs = () => {
         support industry-wide growth and beer appreciation. We are the America
         Fresh Beer!
       </h2>
-      <div className="main-contact"></div>
-      <div className="makeshiftFooter">
-        <p></p>
+      <div className="location">
+      <button onClick={handleLocation}>Locate Us</button>
       </div>
-      <div className="about-email">{/* <Email/> */}</div>
+      
     </div>
   );
 };
