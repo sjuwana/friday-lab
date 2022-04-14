@@ -1,5 +1,12 @@
 # JAGS Brewery
 
+<br/>
+<p align="center">
+    <img width="80%" src="https://i.imgur.com/bWjhKsx.png" alt="Gif of our app">
+</p>
+<br/>
+
+
 JAGS Brewery is the go to place for find all things-related to Beer Brewery.
 
 <p style="text-align: justify"><em>“Fermentation may have been a greater discovery than fire”</em></p>
