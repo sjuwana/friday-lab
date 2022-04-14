@@ -1,6 +1,6 @@
 # JAGS Brewery
 
-We are making Beer Brewery.
+We are the go to place for all things related to Beer Brewery.
 
 
 <p style="text-align: justify"><em>“Fermentation may have been a greater discovery than fire”</em></p>
