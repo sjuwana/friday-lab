@@ -1,7 +1,6 @@
 # JAGS Brewery
 
-We are the go to place for all things related to Beer Brewery.
-
+JAGS Brewery is the go to place for find all things-related to Beer Brewery.
 
 <p style="text-align: justify"><em>“Fermentation may have been a greater discovery than fire”</em></p>
 <p style="text-align: right">― David Rains Wallace</p>
@@ -11,8 +10,9 @@ We are the go to place for all things related to Beer Brewery.
 
 # &nbsp;Overview
 
-# JAGS Brewery
+## How We Built JAGS website
 
+The project was designed using React, JS, CSS, Google API map and News API. We developed this project over two weeks.  
 
 ## Things to install to run this website
 
