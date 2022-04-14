@@ -4,7 +4,7 @@ We are making Beer Brewery.
 <br/>
 <p align="center">
     <a>
-        <img width="100%" src="https://imgur.com/iPr8COH" alt="Garamcha logo">
+        <img width="100%" src="https://imgur.com/a/Y3kge96" alt="Garamcha logo">     
     </a>
 </p>
 
