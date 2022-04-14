@@ -1,12 +1,9 @@
 # JAGS Brewery
 
 We are making Beer Brewery.
-
-
-
 <br/>
 <p align="center">
-    <a href="https://sulu.io/" target="_blank">
+    <a>
         <img width="100%" src="https://imgur.com/iPr8COH" alt="Garamcha logo">
     </a>
 </p>
