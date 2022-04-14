@@ -64,7 +64,7 @@ Features of JAGS Brewery include:
 
 - List of breweries in the United States
 - Latest news update about breweries
-- Search function to find a brewery
+- Search functionality to find a brewery
 - Dark mode function to change the background color
 
 ### 🚀 MVP
