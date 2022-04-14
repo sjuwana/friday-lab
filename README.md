@@ -24,22 +24,17 @@ With the newly redesigned moonMan app, use the interactive and intuitive interfa
 - Add favorite parts to your wishlist and off you go! Whether you are trying to find the planet on which you were probably born, or if you're just visiting.
 - Includes authentication and authorization.
 
-## moonMan team:
+## JAGS team:
 
-- Mary Mac Murray,
-- Ro Cosenza,
-- Jonathan Hernandez,
-- Rico DeRosa
+- Janet Nieto,
+- Aylin Guillen,
+- Godbless Amankwah,
+- Stephanus Juwana
 
 ## Colors
 
-<img src="https://github.com/marymacmurray/done4today/blob/develop/color-palette.png">
 
-## Wireframes
 
-#### Mobile
-
-<img src="mobile-mockup3.png">
 
 #### Desktop
 
