@@ -21,6 +21,14 @@ JAGS Brewery is the go to place for find all things-related to Beer Brewery.
 
 The project was designed using React, JS, CSS, Google API map and News API. We developed this project over two weeks.  
 
+
+## JAGS team:
+
+- Janet Nieto,
+- Aylin Guillen,
+- Godbless Amankwah,
+- Stephanus Juwana
+
 ## Things to install to run this website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -28,7 +36,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Clone this app in the project directory and run 
 
 #### `npm install` 
-
 
 In the project directory, you can run:
 
@@ -58,12 +65,6 @@ Resouces for 'react-slideshow':
 2) https://react-slideshow.herokuapp.com/
 
 
-## JAGS team:
-
-- Janet Nieto,
-- Aylin Guillen,
-- Godbless Amankwah,
-- Stephanus Juwana
 
 ## Header List
 
