@@ -20,7 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Clone this app in the project directory and run 
 
-### `npm install` 
+#### `npm install` 
 
 
 In the project directory, you can run:
