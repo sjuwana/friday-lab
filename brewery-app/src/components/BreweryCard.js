@@ -1,15 +1,9 @@
 
 import { useNavigate } from 'react-router-dom'
 import React from 'react';
+import '../styles/BreweryCard.css'
 import breweryInfo from '../services/breweryInfo';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import { Stack } from '@mui/material'
-import Paper from '@mui/material/Paper';
+import { Button, Stack, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 
 const BreweryCard = (props) => {
@@ -32,7 +26,6 @@ const BreweryCard = (props) => {
             {
                 (imageURL === '') ? <p>There is no image to display.</p> :
         <Stack spacing={4} key={props.id} direction='row'>
-             <Paper elevation={16} />
            
         <Card sx={{ 
             maxWidth: 490,

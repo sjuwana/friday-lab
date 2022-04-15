@@ -5,3 +5,17 @@
     margin-right: 10%;
     margin-top: 5%;
 }
+
+.news {
+    max-width: 500px;
+    margin: 40px;
+    display: inline-grid;
+    /* border: 1px solid rgb(65, 192, 160); */
+    border-radius: 6px;
+    width: 350px;
+    transition: all .4s;
+  }
+  .news:hover{
+    box-shadow: 30px 15px 17px rgb(36, 35, 35);
+    transform: translateY(-16px);
+  }

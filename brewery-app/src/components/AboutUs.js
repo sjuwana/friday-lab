@@ -2,7 +2,9 @@
 import React from "react";
 import {   useNavigate } from "react-router-dom";
 import "../styles/AboutUs.css";
-import { Button } from '@mui/material'
+// import { Button } from '@mui/material'
+import { Button, Stack, Card, CardContent, CardMedia, Typography } from '@mui/material';
+
 
 const AboutUs = () => {
   const navigate = useNavigate();
@@ -23,11 +25,29 @@ const AboutUs = () => {
         Fresh Beer!
       </h2>
       </div>
+      <div className="images">
+          <img src={require('../images/stephanus.jpeg')} alt='Stephanus'></img>
+          <img src={require('../images/godbless.jpeg')} alt='Godbless'></img>
+          <img src={require('../images/Janet.jpeg')} alt='Janet'></img>
+          <img src={require('../images/Aylin.jpeg')} alt='Aylin'></img>
+        </div>
 
         <div className="aboutUs-button">
 
         <Button variant='contained' size='large' onClick={handleLocation} color='error' > Locate Us</Button>
         </div>
+
+        <Stack>
+        <Card sx={{ maxWidth: 345 }}>
+        <CardMedia
+        component="img"
+        height="194"
+        image="Aylin.jpeg"
+        alt="Aylin"
+      />
+      </Card>
+        </Stack>
+        
       
     </div>
   );

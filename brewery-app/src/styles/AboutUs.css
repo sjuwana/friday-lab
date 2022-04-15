@@ -10,8 +10,11 @@
     justify-content: center;
     margin-top: 50px;
   }
-  
+
 .aboutUs-button {
     margin-top: 10%;
     margin-left: 50px;
+}img{
+    width: 120px;
+    padding: 20px;
 }

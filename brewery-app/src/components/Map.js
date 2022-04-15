@@ -4,6 +4,7 @@ import { GoogleMap,
          InfoWindow } from '@react-google-maps/api';
          import { useState } from 'react';
 import '../styles/Map.css'
+import locations from '../services/mapCall'
 
 import React from 'react';
 
@@ -19,38 +20,7 @@ const Map = (props) => {
         lat: 40.460330,
         lng: -74.360970,
       }
-      // hardcode locations with lat and long 
-      const locations = [
-        {
-          name: props.name,
-          location: { 
-            lat:parseFloat(props.lat),
-            lng: parseFloat(props.lon)
-          },
-        },
-        {
-          name: "JAGS",
-          location: { 
-            lat: 40.460330,
-            lng: -74.360970
-          },
-        },
-        {
-          name: "JAGS 2",
-          location: { 
-            lat: 41.3797,
-            lng: -74.1682
-          },
-        },
-        {
-          name: "JAGS 3",
-          location: { 
-            lat: 40.4055,
-            lng: -74.1915
-          },
-        }
-     
-      ];
+
 
       // create useState for selected item 
       const [ selected, setSelected ] = useState({});
