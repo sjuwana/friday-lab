@@ -1,8 +1,4 @@
-.border-box {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* body {
     font-family: inter;
@@ -11,27 +7,10 @@
     background-color: rgb(156, 170, 175);
 } */
 
-.all__news {
+/* .all__news {
   margin: 30 px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 11px;
-}
+} */
 
-.news {
-  max-width: 500px;
-  padding: 40px;
-  border: 1px solid rgb(65, 192, 160);
-  border-radius: 6px;
-  width: 350px;
-}
-
-.news__title {
-  padding-bottom: 10px;
-}
-
-p {
-  color: rgb(251, 173, 27);
-  font-size: large;
-  font-weight: bold;
-}

@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { breweryData } from "../services/constants";
 import React from "react";
 import Email from "./Email";
+import '../styles/Brewery.css'
+import Paper from '@mui/material/Paper';
 
 const Brewery = () => {
   const { name } = useParams();
@@ -22,6 +24,7 @@ const Brewery = () => {
   //    const brewery = props[id];
   return (
     <div className="brewery">
+      <Paper elevation={3} />
       <div className="brewery-details" id="breweryInfo">
         {breweries ? (
           <table>
@@ -67,7 +70,7 @@ const Brewery = () => {
         )}
       </div>
 
-      <div className="brewery-map">
+      <div className="brewery-email">
         <h2>EMAIL : {breweries.name} </h2>
         <Email />
       </div>

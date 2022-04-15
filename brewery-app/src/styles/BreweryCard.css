@@ -1,0 +1,9 @@
+.details {
+    margin: 5%;
+    display: inline-grid;
+   transition: all .2s;
+  }
+  .details:hover{
+   box-shadow: 25px 15px 17px #999;
+   transform: translateY(-4px);
+  }

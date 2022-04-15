@@ -10,8 +10,29 @@
     justify-content: center;
     margin-top: 50px;
   }
-  
+
 .aboutUs-button {
     margin-top: 10%;
     margin-left: 50px;
+}
+
+.images img{
+    width: 120px;
+    /* padding: 20px; */
+    border-radius: 50%;
+}
+.images{
+   display: flex;
+   justify-content: space-around;
+}
+h5 {
+    color: rgb(185, 12, 12);
+}
+
+a{
+    color: rgb(238, 199, 136);
+}
+
+.images a:hover {
+    color: orange;
 }

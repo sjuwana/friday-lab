@@ -20,6 +20,7 @@
 
      return (
          <div className='contact-form'>
+             <h3>EMAIL JAGS' MUG AND ALE</h3>
              <form ref={form} onSubmit={sendEmail}>
                  <label htmlFor="Name">Name</label>
                  <input type="text" placeholder='Your Name' name='name'/>

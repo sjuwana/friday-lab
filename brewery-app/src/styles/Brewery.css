@@ -1,0 +1,36 @@
+
+.brewery {
+    /* This is from BreweryCard */
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin: 50px 75px 75px 50px;
+    width: 100vw;
+  
+    /* Another border to check.  */
+  }
+
+  .brewery-details {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    padding: 30px;
+    justify-self: center;
+    margin-left: 10%;
+    height: 450px;
+   
+  }
+
+  .brewery-email{
+      /* margin-right: 5%; */
+      margin-left: 5%;
+      width: 40%;
+  }
+  th{
+      margin-right: 20%;
+  }
+  
+  td{
+      color: rgb(213, 89, 17);
+      margin: 10%;
+  }
