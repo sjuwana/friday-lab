@@ -86,7 +86,26 @@ Features of JAGS Brewery include:
 - News API:  https://newsapi.org/v2/everything?q=%22breweries%22&apiKey=78d6a44281ba47a89942ef488d051240
 - GoogleMAP API
 
+## MVP
+- Web app built as an SPA(single-page app)
+- Use atleast one API to call and display information
+- Contact Us
+- Search Bar
+- React Frontend
+- Flexbox
+- Nicely styled and ready for a portfolio
+- Deployed on Netlifly
+- Robust commit history
+- Code is correctly indented and well styled
+- Readme created
 
+## Post-MVP Goals
+- Expand the Google MAP function
+- 404 Page
+- Weather API
+- Likes/Dislikes
+- Message boards
+- Emojis
 
 
 
