@@ -5,17 +5,17 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     font-family: inter;
     width: 75%;
     margin: 0 auto;
     background-color: rgb(156, 170, 175);
-}
+} */
 
 .all__news{
     margin: 30 px auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 11px;
 }
 
@@ -24,8 +24,14 @@ body {
     padding :40px;
     border: 1px solid rgb(65, 192, 160);
     border-radius: 6px;
+    width: 350px;
 }
 
 .news__title{
     padding-bottom: 10px;
+    
 }
+
+
+
+
