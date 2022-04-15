@@ -29,6 +29,11 @@ The project was designed using React, JS, CSS, Google API map and News API. We d
 - Godbless Amankwah,
 - Stephanus Juwana
 
+<p style="text-align: justify"><em>“if you want to go fast, go alone; if you want to go far, go together.”</em></p>
+<p style="text-align: right">― African proverbs</p>
+
+
+
 ## Things to install to run this website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
