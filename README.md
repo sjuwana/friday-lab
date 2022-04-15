@@ -6,7 +6,7 @@
 </p>
 <br/>
 
-We chose to create a Beer Industry guideline because we love beers. JAGS Brewery is the go to place for find all things-related to Beer Brewery.
+We chose to create a Beer Industry guideline because we love beers. JAGS Brewery is the go to place for finding all things-related to Beer Brewery.
 
 <p style="text-align: justify"><em>“Fermentation may have been a greater discovery than fire”</em></p>
 <p style="text-align: right">― David Rains Wallace</p>
