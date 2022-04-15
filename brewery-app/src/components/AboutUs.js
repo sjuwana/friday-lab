@@ -3,7 +3,7 @@ import React from "react";
 import {   useNavigate } from "react-router-dom";
 import "../styles/AboutUs.css";
 // import { Button } from '@mui/material'
-import { Button, Stack, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { Button } from '@mui/material';
 
 
 const AboutUs = () => {
@@ -26,27 +26,28 @@ const AboutUs = () => {
       </h2>
       </div>
       <div className="images">
+        <div>
           <img src={require('../images/stephanus.jpeg')} alt='Stephanus'></img>
+          <h4><a href="https://www.linkedin.com/in/stephanus-iwan-j-55a35b/">STEPHANUS</a></h4>
+          </div>
+          <div>
           <img src={require('../images/godbless.jpeg')} alt='Godbless'></img>
-          <img src={require('../images/Janet.jpeg')} alt='Janet'></img>
+          <h4><a href="https://www.linkedin.com/in/godbless-amankwah-b17b3084/">GODBLESS</a></h4>
+          </div>
+          <div>
           <img src={require('../images/Aylin.jpeg')} alt='Aylin'></img>
+          <h4><a href="https://www.linkedin.com/in/aylin-guillen-ba912612a/">AYLIN</a></h4>
+          </div>
+          <div>
+          <img src={require('../images/Janet.jpeg')} alt='Janet'></img>
+          <h4><a href="https://www.linkedin.com/in/janet-nieto-2a00a9232/">JANET</a></h4>
+          </div>
         </div>
 
         <div className="aboutUs-button">
 
         <Button variant='contained' size='large' onClick={handleLocation} color='error' > Locate Us</Button>
         </div>
-
-        <Stack>
-        <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-        component="img"
-        height="194"
-        image="Aylin.jpeg"
-        alt="Aylin"
-      />
-      </Card>
-        </Stack>
         
       
     </div>

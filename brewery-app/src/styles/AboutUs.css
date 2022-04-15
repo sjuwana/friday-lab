@@ -14,7 +14,21 @@
 .aboutUs-button {
     margin-top: 10%;
     margin-left: 50px;
-}img{
+}
+
+img{
     width: 120px;
     padding: 20px;
+    border-radius: 50%;
+}
+.images{
+   display: flex;
+   justify-content: space-around;
+}
+h5 {
+    color: rgb(185, 12, 12);
+}
+
+a{
+    color: rgb(238, 211, 211);
 }
