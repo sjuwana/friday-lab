@@ -6,8 +6,7 @@
 </p>
 <br/>
 
-
-JAGS Brewery is the go to place for find all things-related to Beer Brewery.
+We chose to create a Beer Industry guideline because we love beers. JAGS Brewery is the go to place for find all things-related to Beer Brewery.
 
 <p style="text-align: justify"><em>“Fermentation may have been a greater discovery than fire”</em></p>
 <p style="text-align: right">― David Rains Wallace</p>
@@ -19,7 +18,7 @@ JAGS Brewery is the go to place for find all things-related to Beer Brewery.
 
 ## How We Built JAGS website
 
-The project was designed using React, JS, CSS, Google API map and News API. We developed this project over two weeks.  
+The project was designed using a combination several technologies such as React, JS, CSS, Google API map and News API. Further, we also use Coolers.io to pick images and Material UI to help design the front-end. We developed this project over two weeks.  
 
 
 ## JAGS team
