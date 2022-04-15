@@ -107,9 +107,11 @@ Features of JAGS Brewery include:
 - Message boards
 - Emojis
 
+## Component Hierarchy
+
 <br/>
 <p align="center">
-    <img width="80%" src="https://i.ibb.co/gtLShTv/iPr8COH.png" alt="Gif of our app">
+    <img width="80%" src="https://i.ibb.co/k6fdbpW/Component-Hierarchy-drawio.png" alt="Gif of our app">
 </p>
 <br/>
 
