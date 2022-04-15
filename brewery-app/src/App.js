@@ -2,6 +2,8 @@
 import Header from './components/Header';
 import Container from './Container.js';
 import './App.css'
+import './components/News.css'
+import './components/AboutUs.css'
 
 function App() {
   return (
