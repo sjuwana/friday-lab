@@ -100,7 +100,6 @@ Features of JAGS Brewery include:
 
 ## Post-MVP Goals
 - Expand the Google MAP function
-- 404 Page
 - Likes/Dislikes
 - Message boards
 
