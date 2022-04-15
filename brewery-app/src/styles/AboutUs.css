@@ -16,9 +16,9 @@
     margin-left: 50px;
 }
 
-img{
+.images img{
     width: 120px;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 50%;
 }
 .images{
@@ -30,5 +30,9 @@ h5 {
 }
 
 a{
-    color: rgb(238, 211, 211);
+    color: rgb(238, 199, 136);
+}
+
+.images a:hover {
+    color: orange;
 }

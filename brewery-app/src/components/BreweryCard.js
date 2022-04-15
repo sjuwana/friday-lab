@@ -33,7 +33,7 @@ const BreweryCard = (props) => {
             }} >
       <CardMedia
         component="img"
-        height="570"
+        height="550"
         image={imageURL}
         alt="beer pic"
       />

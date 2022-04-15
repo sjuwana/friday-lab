@@ -26,21 +26,21 @@ const AboutUs = () => {
       </h2>
       </div>
       <div className="images">
-        <div>
+         <div>
           <img src={require('../images/stephanus.jpeg')} alt='Stephanus'></img>
-          <h4><a href="https://www.linkedin.com/in/stephanus-iwan-j-55a35b/">STEPHANUS</a></h4>
+          <h4><a href="https://www.linkedin.com/in/stephanus-iwan-j-55a35b/">ABOUT STEPHANUS</a></h4>
           </div>
           <div>
           <img src={require('../images/godbless.jpeg')} alt='Godbless'></img>
-          <h4><a href="https://www.linkedin.com/in/godbless-amankwah-b17b3084/">GODBLESS</a></h4>
+          <h4><a href="https://www.linkedin.com/in/godbless-amankwah-b17b3084/">ABOUT GODBLESS</a></h4>
           </div>
           <div>
           <img src={require('../images/Aylin.jpeg')} alt='Aylin'></img>
-          <h4><a href="https://www.linkedin.com/in/aylin-guillen-ba912612a/">AYLIN</a></h4>
+          <h4><a href="https://www.linkedin.com/in/aylin-guillen-ba912612a/">ABOUT AYLIN</a></h4>
           </div>
           <div>
           <img src={require('../images/Janet.jpeg')} alt='Janet'></img>
-          <h4><a href="https://www.linkedin.com/in/janet-nieto-2a00a9232/">JANET</a></h4>
+          <h4><a href="https://www.linkedin.com/in/janet-nieto-2a00a9232/">ABOUT JANET</a></h4>
           </div>
         </div>
 
