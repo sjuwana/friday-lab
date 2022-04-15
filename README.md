@@ -80,3 +80,18 @@ Features of JAGS Brewery include:
 - Search functionality to find a brewery
 - Dark mode function to change the background color
 
+## APIs
+
+Brewery API: https://api.openbrewerydb.org/breweries
+News API:  https://newsapi.org/v2/everything?q=%22breweries%22&apiKey=78d6a44281ba47a89942ef488d051240
+GoogleMAP API
+
+
+
+
+
+
+
+
+
+
