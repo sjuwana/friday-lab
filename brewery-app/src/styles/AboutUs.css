@@ -1,7 +1,17 @@
 
-.main-contact{
+.aboutUs-container{
     max-width: 100%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    /* margin-top: 15%, */
+}
+
+.aboutUs {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+.aboutUs-button {
+    margin-top: 10%;
+    margin-left: 50px;
 }

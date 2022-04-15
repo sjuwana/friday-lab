@@ -12,8 +12,8 @@ const Map = (props) => {
     // set mao defaults
     const mapStyles = {        
         // height: "100vh",
-        height: "40vh",
-        width: "70%"};
+        height: "70vh",
+        width: "100%"};
       
       const defaultCenter = {
         lat: 40.460330,
@@ -28,6 +28,27 @@ const Map = (props) => {
             lng: parseFloat(props.lon)
           },
         },
+        {
+          name: "JAGS",
+          location: { 
+            lat: 40.460330,
+            lng: -74.360970
+          },
+        },
+        {
+          name: "JAGS 2",
+          location: { 
+            lat: 41.3797,
+            lng: -74.1682
+          },
+        },
+        {
+          name: "JAGS 3",
+          location: { 
+            lat: 40.4055,
+            lng: -74.1915
+          },
+        }
      
       ];
 
@@ -37,13 +58,16 @@ const Map = (props) => {
         const onSelect = item => {
         setSelected(item);
     }
+
     return (
+      <div className="map">
         <LoadScript
-       googleMapsApiKey='API-KEY'>
+       googleMapsApiKey={ process.env.REACT_APP_GOOGLE_KEY }>
         <GoogleMap
           mapContainerStyle={mapStyles}
           zoom={10}
           center={defaultCenter}
+          
         >
             {locations?
             locations.map(item => {
@@ -66,6 +90,7 @@ const Map = (props) => {
          }
         </GoogleMap>
      </LoadScript>
+     </div>
     );
 };
 
