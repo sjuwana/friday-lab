@@ -2,8 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 
 :root {
-  --blue: rgb(26, 57, 87);
-  --white: rgb(170, 195, 237);
+  /* --blue: rgb(8, 123, 8);
+  --white: rgb(159, 233, 159); */
+
+  --blue: rgb(80, 5, 80);
+  --white: rgb(210, 199, 210);
+
+  /* --blue: rgb(26, 57, 87);
+  --white: rgb(170, 195, 237); */
+
+  /* --blue: #457b9d;
+  --white:#caf0f8; */
 }
 @import "react-slideshow-image/dist/styles.css";
 
