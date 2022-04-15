@@ -22,7 +22,7 @@ JAGS Brewery is the go to place for find all things-related to Beer Brewery.
 The project was designed using React, JS, CSS, Google API map and News API. We developed this project over two weeks.  
 
 
-## JAGS team:
+## JAGS team
 
 - Janet Nieto,
 - Aylin Guillen,
