@@ -12,7 +12,7 @@
 input[type=text], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid rgb(255, 156, 48);
+    border: 1px solid rgb(255, 48, 48);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -20,7 +20,7 @@ input[type=text], textarea {
     resize: vertical;
   }
   input[type=submit] {
-    background-color: #f1af4c;
+    background-color:rgb(224, 79, 69);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -28,7 +28,7 @@ input[type=text], textarea {
     cursor: pointer;
   }
   input[type=submit]:hover {
-    background-color: #fa9b0e;
+    background-color: #ed6635;
   }
   
 

@@ -1,4 +1,10 @@
 .map {
     background-color: white;
     margin-left: 5%;
+
+}
+
+p{
+    color: red;
+    font-weight: 100;
 }

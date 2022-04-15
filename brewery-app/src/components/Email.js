@@ -1,7 +1,8 @@
  import React, { useRef }  from 'react';
  import '../styles/Email.css'
  import emailjs from 'emailjs-com';
-import Map from './Map';
+
+
  
  const Email = () => {
     const form = useRef();

@@ -2,6 +2,15 @@
 import { useNavigate } from 'react-router-dom'
 import React from 'react';
 import breweryInfo from '../services/breweryInfo';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import { Stack } from '@mui/material'
+import Paper from '@mui/material/Paper';
+
 
 const BreweryCard = (props) => {
     // setting a variable for the funcion useNavigate to use later in app
@@ -20,24 +29,32 @@ const BreweryCard = (props) => {
     return (
         <div className='details' key={props.id}>
 
-            <h2>{props.name}</h2>
-
-            {/* Below will be a palaceholder */}
-            {/* <div className='details-image'> 
-            <img src={breweryInfo[0].pictureThree}></img>
-            </div> */}
-
             {
                 (imageURL === '') ? <p>There is no image to display.</p> :
-                <div className='details-image'>
-                    <img src={imageURL}></img>
-                </div>
+        <Stack spacing={4} key={props.id} direction='row'>
+             <Paper elevation={16} />
+           
+        <Card sx={{ 
+            maxWidth: 490,
+            height:670
+            }} >
+      <CardMedia
+        component="img"
+        height="570"
+        image={imageURL}
+        alt="beer pic"
+      />
+      <CardContent>
+        <Typography variant="h5" component="div" color=''>
+        {props.name}
+        </Typography>
+      </CardContent>
+        <Button size="small" onClick={()=>navigate(`/brewery/${props.name}`)} variant='outlined' color='error' > See More </Button>
+      
+    </Card>
+    </Stack>
             }
             
-            {/* created a button to take us to individual brewery when clicked */}
-            <div className='details-button'>
-            <button onClick={()=>navigate(`/brewery/${props.name}`)}>See More Details</button>
-            </div>
         </div>
     );
 };

@@ -2,7 +2,7 @@
 import React from "react";
 import {   useNavigate } from "react-router-dom";
 import "../styles/AboutUs.css";
-import Map from "./Map";
+import { Button } from '@mui/material'
 
 const AboutUs = () => {
   const navigate = useNavigate();
@@ -12,7 +12,8 @@ const AboutUs = () => {
   }
 
   return (
-    <div className="aboutUs">
+    <div className="aboutUs-container">
+      <div className="aboutUs">
       <h2>
         The JAGS Brewers’ Association was founded in 2022 by Janet, Aylin,
         Godbless and Stephanus through a Per Scholas project and represents the
@@ -21,9 +22,12 @@ const AboutUs = () => {
         support industry-wide growth and beer appreciation. We are the America
         Fresh Beer!
       </h2>
-      <div className="location">
-      <button onClick={handleLocation}>Locate Us</button>
       </div>
+
+        <div className="aboutUs-button">
+
+        <Button variant='contained' size='large' onClick={handleLocation} color='error' > Locate Us</Button>
+        </div>
       
     </div>
   );

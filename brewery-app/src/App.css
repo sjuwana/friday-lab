@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 
 :root {
-  --blue: rgb(46, 146, 247);
-  --white: rgb(255, 255, 255);
+  --blue: rgb(44, 109, 174);
+  /* --blue: rgba(0, 101, 182); */
+  /* --white: rgb(252, 214, 215); */
+  --white: rgb(230, 241, 251);
 }
 @import "react-slideshow-image/dist/styles.css";
 
@@ -119,12 +121,6 @@ nav a:hover {
   color: rgb(12, 216, 189);
 }
 
-/* h1,
-p {
-  color: white;
-  text-shadow: 2px 2px black;
-} */
-
 h1 {
   text-align: center;
   margin: 3rem 0 2rem 0;
@@ -135,12 +131,6 @@ p {
   margin: 1rem auto;
   line-height: 1.6;
 }
-
-/* p {
-  width: 40%;
-  margin: 1rem auto;
-  line-height: 1.6;
-} */
 
 .header > ul,
 li {
@@ -157,41 +147,22 @@ li {
   position: relative;
   left: 0%;
   width: 100vw;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-content: center; */
-  /* align-self: center; */
 }
 .headerImage {
   background-image: url("./images/icons/JAGS-header/JAGStransparent.png");
   /* background-image: url('./images/icons/JAGS-long-logo/JAGSlong-transparent-black.png'); */
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 175px;
-  width: 175px;
-  /* border: 2px solid white;  */
+  height: 165px;
+  width: 165px;
   border-radius: 50%;
-
-  /* Below is for a "rounded" look */
   position: relative;
   top: -35%;
+background-color: rgb(229, 45, 49);
 
-  background-color: orange;
 }
 
-.aboutUs {
-  /* background-image: url('./images/beer-pouring-from-can-to-glass.jpg'); */
-  /* The above is causing issues with our slide. */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  /* display: flex; */
-  justify-content: center;
-  /* height: 1000px; */
-}
 
-/* Below is experimental */
-/* It will remove ALL underlined links */
-/* Issue - all li are currently affected*/
 
 a {
   text-decoration: none;
@@ -248,25 +219,29 @@ a {
   padding: 50px 30px 30px 50px;
   border: 5px solid black;
   border-radius: 10%;
-  /* background-image: linear-gradient(orange) */
   background-color: orange;
 }
 
-.brewery-card {
+/* .brewery-card {
   border: 5px solid brown;
-}
+} */
 .details {
+
+  margin: 5%;
+  /* display: flex;
+  flex-direction:row;
+  flex-wrap: wrap; */
   display: inline-grid;
-  height: 350px;
-  width: 300px;
-  border: 5px solid pink;
-  border-radius: 10%;
-  background-color: orange;
+  /* height: 350px;
+  width: 300px; */
+  /* border: 5px solid pink; */
+  /* border-radius: 10%;
+  background-color: orange; */
   /* A border check */
 
-  margin: 5px 10px 10px 5px;
+  /* margin: 5px 10px 10px 5px;
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px black; */
 }
 
 .details > button {
@@ -287,40 +262,39 @@ a {
   height: 100%;
 }
 /* Below will be some general component divs */
-.home {
-  /* background-color: white; */
-  border: 5px solid blue;
-}
 
 .home-imageDiv {
-  /* background-color: black; */
-  background-image: url("images/beer-machine.jpeg");
+  background-image: url("images/back4blue.jpeg");
+  /* background-image: url("images/back4.webp"); */
+  /* background-image: url("images/backblue3.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 2px #282c34;
+  /* box-shadow: 2px #282c34; */
   height: 700px;
   width: 100vw;
 }
 
 .home-textDiv {
   position: relative;
-  color: white;
-  top: 30%;
-
+  color: white; 
+  top: 10%;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 30px;
-  font-weight: 700;
-  text-shadow: 5px 5px black;
+  /* font-weight: 700; */
+  /* text-shadow: 5px 5px rgb(98, 85, 85); */
 }
 
 .home-button > button {
   font-size: large;
   font-weight: bold;
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
+  margin-top: 10%;
   width: 150px;
   height: 50px;
-  background-image: linear-gradient(90deg, brown, orange, yellow);
-  border-radius: 15%;
+  /* background-image: linear-gradient(90deg, rgb(236, 27, 27), orange, rgb(158, 247, 133)); */
+  background-color:rgb(244, 45, 45) ;
+  border-radius: 10%;
 }
 
 .home-button > button:hover {
@@ -328,12 +302,9 @@ a {
   transition: 0.5s;
 }
 
-.aboutUs {
-  border: 5px solid blue;
-}
 
 .breweries-searchlink {
-  color: white;
+  color: rgb(214, 65, 65);
   font-size: 25px;
 }
 
@@ -352,7 +323,7 @@ a {
   position: relative;
   left: 25%;
   width: 50%;
-  border: 5px solid greenyellow;
+  /* border: 5px solid greenyellow; */
 }
 
 .each-slide {
@@ -360,16 +331,16 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   height: 700px;
-  width: 700px;
+  width: 900px;
 }
 
 .ourImages {
   display: flex;
   justify-content: center;
   align-content: center;
-  border: 5px solid white;
+  /* border: 5px solid white; */
   height: 1000px;
   width: 1000px;
   margin-top: 30px;
