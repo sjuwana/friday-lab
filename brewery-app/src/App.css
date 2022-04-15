@@ -132,6 +132,17 @@ p {
   line-height: 1.6;
 }
 
+/* p {
+  width: 40%;
+  margin: 1rem auto;
+  line-height: 1.6;
+} */
+
+.header { 
+  /* border: 5px solid purple; */
+  /* background-color: rgb(23, 23, 103); */
+}
+
 .header > ul,
 li {
   width: 100%;

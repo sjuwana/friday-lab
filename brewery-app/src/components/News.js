@@ -1,13 +1,22 @@
 import React from 'react';
 import '../styles/News.css'
+import React, { useContext } from 'react';
+import {NewsContext} from "./NewsContext";
+import NewsArticle from './NewsArticle';
 
-const News = () => {
+function News(props) {
+    const { data} = useContext(NewsContext)  
+     console.log(data);
     return (
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet quasi deserunt quia. Aperiam, hic quibusdam eius autem minima id officia explicabo? Excepturi inventore repudiandae ipsa eveniet recusandae necessitatibus dolore.</p>
 
-        </div>
-    );
-};
+            <div className="all__news">
+            {data ? data.articles.map((news) => (
+            <NewsArticle data={news} key={news.url} />
+            ))
+            : "Loading"}
+            </div>
+            );
+            }
+
 
 export default News;
