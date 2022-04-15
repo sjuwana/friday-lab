@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-    <img width="80%" src="https://i.ibb.co/gtLShTv/iPr8COH.png" alt="Gif of our app">
+    <img width="80%" src="https://i.ibb.co/7rdDPZw/JAGSlatest.png" alt="Gif of our app">
 </p>
 <br/>
 
@@ -102,10 +102,8 @@ Features of JAGS Brewery include:
 ## Post-MVP Goals
 - Expand the Google MAP function
 - 404 Page
-- Weather API
 - Likes/Dislikes
 - Message boards
-- Emojis
 
 ## Component Hierarchy
 
