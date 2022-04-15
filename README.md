@@ -18,7 +18,7 @@ We chose to create a Beer Industry guideline because we love beers. JAGS Brewery
 
 ## How We Built JAGS website
 
-The project was designed using a combination several technologies such as React, JS, CSS, Google API map and News API. Further, we also use Coolers.io to pick images and Material UI to help design the front-end. We developed this project over two weeks.  
+The project was designed using a combination several technologies such as React, JS, CSS, Google API map and News API. Further, we also use Coolers.io to pick images, Material UI to help design the front-end, and Trello to as our project management app. We developed this project over two weeks.  
 
 
 ## JAGS team
