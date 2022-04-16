@@ -20,7 +20,7 @@ const Header = () => {
         <div className="headerImage"></div>
 
         <NavLink to="/news">
-          <li>NEWS</li>
+          <li>BREWERY NEWS</li>
         </NavLink>
 
         {/* <img className="headerImage" src={"./images/icons/JAGS-header/JAGStransparent.png'/"} /> */}
