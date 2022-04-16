@@ -21,7 +21,7 @@ function NewsArticle({ data }) {
         </Stack>
       </CardContent>
 
-        <Button size="large" href={data.url} variant="contained">Link to the News</Button>
+        <Button size="large" href={data.url} variant="contained">Link to the Story</Button>
      
     </Card>
       

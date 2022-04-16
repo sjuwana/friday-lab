@@ -13,7 +13,7 @@ function News(props) {
         ? data.articles.map((news) => (
             <NewsArticle data={news} key={news.url} />
           ))
-        : "Loading"}
+        : <div><p>Api Key quota reached for the day...</p></div>}
     </div>
   );
 }
